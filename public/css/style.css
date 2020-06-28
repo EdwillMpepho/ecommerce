@@ -1,0 +1,74 @@
+@media(min-width:500px) {
+ .admin-login {
+  display: flex;
+  align-items: center;
+  width: 400px;
+  }
+ .box {
+    flex:1;
+ }
+ .our-product {
+  font-family: 'Roboto';
+  text-align: center;
+ }
+ .truck-gallery {
+   width:100%;
+   height:100%;
+ }
+ .truck-link {
+     margin: 20px;
+ }
+ .btn-add-cart {
+     margin: 20px;
+ }
+ .delete-cart {
+    margin: 20px;
+
+ }
+ /**
+* The CSS shown here will not be introduced in the Quickstart guide, but
+* shows how you can use CSS to style your Element's container.
+*/
+input,
+.StripeElement {
+  height: 40px;
+  padding: 10px 12px;
+
+  color: #32325d;
+  background-color: white;
+  border: 1px solid transparent;
+  border-radius: 4px;
+
+  box-shadow: 0 1px 3px 0 #e6ebf1;
+  -webkit-transition: box-shadow 150ms ease;
+  transition: box-shadow 150ms ease;
+}
+
+input:focus,
+.StripeElement--focus {
+  box-shadow: 0 1px 3px 0 #cfd7df;
+}
+
+.StripeElement--invalid {
+  border-color: #fa755a;
+}
+
+.StripeElement--webkit-autofill {
+  background-color: #fefde5 !important;
+}
+.add-payment {
+    margin: 20px;
+    padding: 10;
+    width:480px;
+    border:1px solid #ccc;
+    text-align:center;
+}
+.frm-payment {
+  margin: 10px;
+  padding: 5px;
+  width:450px;
+}
+.btn-pay {
+ width: 100%;
+}
+}
